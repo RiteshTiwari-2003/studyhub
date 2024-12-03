@@ -12,7 +12,7 @@ function App() {
   useEffect(()=>{
     console.log("ui rendering is doone");
 
-  },[]);// second parameter in useeffect basically show the dependencies
+  },[]);// second parameter in useeffect basically show the dependencies, this show that my useEffect run only one time for first time when app component render
   function changeHandler(event){
     console.log(text);
     setText(event.target.value);
