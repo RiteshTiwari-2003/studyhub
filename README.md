@@ -68,3 +68,8 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# so basically different between use effect and use state  
+one effect handle state which is useState and one is useEffect which  handle the side effect and changes
+
+if any component mounted means that component rendered or component rendered means that component come on dom and when you said that component is unmounted means you remove that component from the dom

@@ -43,3 +43,4 @@ export default App;
 // useState return two value first is that state and second is that function that run when any change occur on state,
 // and if you want to perform task using code after the component has rendered  then we use useEffect
 // by the use of useEffect you handle state 
+// in useEffect we pass two parameter as a argument one is callback function and one is dependencies in which we put that thing in which we perform change
