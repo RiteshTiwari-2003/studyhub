@@ -73,3 +73,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 one effect handle state which is useState and one is useEffect which  handle the side effect and changes
 
 if any component mounted means that component rendered or component rendered means that component come on dom and when you said that component is unmounted means you remove that component from the dom
+
+# now we talk about life cycle method of class based components
+1. component did mount
+2. componentdidupdate
+3. componentwillunmount
+but these thing perform before but now we replace these three method with useEffect
